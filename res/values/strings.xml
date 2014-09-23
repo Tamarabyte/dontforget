@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tbain-notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_item">&#160;New Item</string>
+    <string name="delete">Delete Selected</string>
+    <string name="archive">Archive Selected</string>
+    <string name="unarchive">Unarchive Selected</string>
+    <string name="go_to_archive">Go To Archive</string>
+    <string name="email">Email Selected</string>
+    <string name="email_all">Email All (active &amp; archive)</string>
+    <string name="view_stats">View Stats</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="new_to_do_hint">- New to Do -</string>
+    <string name="to_do_list_subtitle">To Do List</string>
+    <string name="archive_subtitle">Archive</string>
+    <string name="email_subject">Don\'t Forget: Reminder Email</string>
+    <string name="no_items_selected_error">You must select at least one item.</string>
+    <string name="no_items_email_error">You have no items to email!</string>
+    <string name="statistics">Total Checked: %1$d\nTotal Unchecked: %2$d\n\nTotal Archived: %3$d\nTotal Archived Checked: %4$d\nTotal Archived Unchecked: %5$d</string>
+</resources>
