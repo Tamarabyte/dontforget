@@ -1,7 +1,9 @@
 
 ### tbain-notes  
 -----------------------------------------------------------------  
-   
+
+APK: bin/DontForget.apk
+
 Two views:  
 1. Active To Do List (Main View)  
 2. Archive (the Overflow Menu -> 'Go To Archive')  
