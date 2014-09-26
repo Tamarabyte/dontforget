@@ -27,6 +27,7 @@
 	    android:background="@android:color/transparent" 
 	    android:hint="@string/new_to_do_hint"
 	    android:textColorHint="@color/grey"
+	    android:inputType="textMultiLine|textNoSuggestions"
         />
 
 </LinearLayout>
