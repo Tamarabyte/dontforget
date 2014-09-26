@@ -26,12 +26,17 @@ public class ArchiveListFragment extends BaseToDoFragment {
 	}
 	
 	@Override
-	protected BaseToDoAdapter getAdapter() {
-		return new ArchiveAdapter(getActivity(), mToDos);
+	protected BaseToDoAdapter getAdapter(ToDoManager manager) {
+		return new ArchiveAdapter(getActivity(), manager.getToDoItems());
 	}
 
 	@Override
 	protected boolean otherMenuItemsSelected(int menuItemID, ToDoManager manager) {
+		if (menuItemID == R.id.menu_back_to_active) {
+			getActivity().finish();
+			return true;
+		}
+		
 		return false;
 	}
 	

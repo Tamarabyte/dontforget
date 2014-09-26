@@ -31,7 +31,7 @@
 	    android:textColorHint="@color/grey"
 	    android:focusable="false"
 	    android:textColor="@color/grey"
-	    android:inputType="textNoSuggestions"
+	    android:inputType="textMultiLine|textNoSuggestions"
         />
 
 </LinearLayout>

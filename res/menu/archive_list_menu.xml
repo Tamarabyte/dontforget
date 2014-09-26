@@ -4,39 +4,37 @@
     tools:context="com.wildgamerappears.tbainnotes.ToDoActivity" >
 
     <item
-        android:id="@+id/menu_unarchive"
-        android:icon="@drawable/unarchive"
-        android:showAsAction="ifRoom|withText"
-        android:title="@string/unarchive"/>
-    <item
         android:id="@+id/menu_delete"
         android:icon="@drawable/trash"
         android:showAsAction="ifRoom|withText"
         android:title="@string/delete"/>
     <item
+        android:id="@+id/menu_unarchive"
+        android:icon="@drawable/unarchive"
+        android:title="@string/unarchive"/>
+    <item
         android:id="@+id/menu_email"
         android:icon="@drawable/mail"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/email"/>
     <item
         android:id="@+id/email_all"
         android:icon="@drawable/mail_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/email_all"/>
     <item
         android:id="@+id/select_all"
         android:icon="@drawable/select_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/select_all"/>
     <item
         android:id="@+id/unselect_all"
         android:icon="@drawable/unselect_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/unselect_all"/>
+    <item
+        android:id="@+id/menu_back_to_active"
+        android:icon="@drawable/folder_go_to"
+        android:title="@string/back_to_active"/>
     <item
         android:id="@+id/show_stats"
         android:icon="@drawable/view_stats"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/view_stats"/>
 
 </menu>

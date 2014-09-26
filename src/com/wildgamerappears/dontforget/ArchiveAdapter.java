@@ -19,6 +19,18 @@ import android.widget.ImageButton;
 
 public class ArchiveAdapter extends BaseToDoAdapter {
 
+	@Override
+	protected int getCheckBoxFull()
+	{
+		return R.drawable.checkbox_full_grey;
+	}
+	@Override
+	protected int getCheckBoxEmpty()
+	{
+		return R.drawable.checkbox_empty_grey;
+	}
+	
+	
 	public ArchiveAdapter(Context context, ArrayList<ToDo> toDos) {
 		super(context, toDos);
 	}
@@ -48,11 +60,5 @@ public class ArchiveAdapter extends BaseToDoAdapter {
         setItemBackground(view, item.getIsSelected());
 
 		return view;
-	}
-	
-	private void setCheckBoxImage(ImageButton image, Boolean isComplete) {
-		int image_id = isComplete ? R.drawable.checkbox_full_grey
-				: R.drawable.checkbox_empty_grey;
-		image.setImageResource(image_id);
 	}
 }

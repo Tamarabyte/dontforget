@@ -104,7 +104,7 @@ public class ToDoManager {
 	// Used to construct a ToDoManager.
 	// Singleton design pattern with two static ToDoManagers (does that make it a doubleton?)
 	// The isActiveList flag tells method which manager to retrieve
-	public static ToDoManager get(Context context, Boolean isActiveList) {
+	public static ToDoManager getInstance(Context context, Boolean isActiveList) {
 		if (isActiveList) {
 			// only instantiate sActiveToDoList if it isn't already insantiated
 			if (sActiveToDoList == null) {

@@ -16,37 +16,30 @@
     <item
         android:id="@+id/menu_archive"
         android:icon="@drawable/folder"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/archive"/>
     <item
         android:id="@+id/menu_email"
         android:icon="@drawable/mail"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/email"/>
     <item
         android:id="@+id/email_all"
         android:icon="@drawable/mail_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/email_all"/>
     <item
         android:id="@+id/select_all"
         android:icon="@drawable/select_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/select_all"/>
     <item
         android:id="@+id/unselect_all"
         android:icon="@drawable/unselect_all"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/unselect_all"/>
     <item
         android:id="@+id/menu_go_to_archive"
         android:icon="@drawable/folder_go_to"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/go_to_archive"/>
     <item
         android:id="@+id/show_stats"
         android:icon="@drawable/view_stats"
-        android:showAsAction="ifRoom|withText"
         android:title="@string/view_stats"/>
 
 </menu>

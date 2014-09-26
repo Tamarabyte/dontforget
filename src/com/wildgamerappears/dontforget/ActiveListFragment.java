@@ -27,8 +27,8 @@ public class ActiveListFragment extends BaseToDoFragment {
 	}
 	
 	@Override
-	protected BaseToDoAdapter getAdapter() {
-		return new ActiveAdapter(getActivity(), mToDos);
+	protected BaseToDoAdapter getAdapter(ToDoManager manager) {
+		return new ActiveAdapter(getActivity(), manager.getToDoItems());
 	}
 	
 	@Override

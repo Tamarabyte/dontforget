@@ -7,8 +7,9 @@
     <string name="archive">Archive Selected</string>
     <string name="unarchive">Unarchive Selected</string>
     <string name="go_to_archive">Go To Archive</string>
+    <string name="back_to_active">Go To Active List</string>
     <string name="email">Email Selected</string>
-    <string name="email_all">Email All (active &amp; archive)</string>
+    <string name="email_all">Email All</string>
     <string name="view_stats">View Stats</string>
     <string name="select_all">Select All</string>
     <string name="unselect_all">Unselect All</string>
@@ -18,5 +19,6 @@
     <string name="email_subject">Don\'t Forget: Reminder Email</string>
     <string name="no_items_selected_error">You must select at least one item.</string>
     <string name="no_items_email_error">You have no items to email!</string>
-    <string name="statistics">Total Checked: %1$d\nTotal Unchecked: %2$d\n\nTotal Archived: %3$d\nTotal Archived Checked: %4$d\nTotal Archived Unchecked: %5$d</string>
+    <string name="statistics">Active To Dos: %1$d\nActive Checked: %2$d\nActive Unchecked: %3$d\n\nArchived To Dos: %4$d\nArchived Checked: %5$d\nArchived Unchecked: %6$d</string>
+    <string name="statistics_title">To Do Statistics</string>
 </resources>
